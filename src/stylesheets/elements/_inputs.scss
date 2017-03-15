@@ -108,13 +108,14 @@ textarea {
 }
 
 select {
+  padding: $input-padding-vertical 2.6rem $input-padding-vertical 0.7em;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
   background-color: $color-white;
   background-image: url('#{$image-path}/arrow-down.png');
   background-image: url('#{$image-path}/arrow-down.svg');
-  background-position: right 1.3rem center;
+  background-position: right .65rem center;
   background-repeat: no-repeat;
   background-size: 1.3rem;
 }
