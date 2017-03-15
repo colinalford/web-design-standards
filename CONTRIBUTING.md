@@ -1,17 +1,17 @@
-# Welcome!
+## Welcome!
 
 We’re so glad you’re thinking about contributing to an 18F open source project! If you’re unsure about anything, just ask — or submit your issue or pull request anyway. The worst that can happen is we’ll politely ask you to change something. We appreciate all friendly contributions.
 
 One of our goals is to ensure a welcoming environment for all contibutors to our projects. Our staff follows the [18F Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md), and all contributors should do the same.
 
-We encourage you to read this project’s CONTRIBUTING policy (you are here), its [LICENSE](LICENSE.md), [README](README.md) and its [Workflow](https://github.com/18F/web-design-standards/wiki/Workflow) process.
+We encourage you to read this project’s CONTRIBUTING policy (you are here), its [LICENSE](https://github.com/18F/web-design-standards/blob/staging/LICENSE.md), [README](https://github.com/18F/web-design-standards/blob/staging/README.md) and its [Workflow](https://github.com/18F/web-design-standards/wiki/Workflow) process.
 
 If you have any questions or want to read more, check out the [18F Open Source Policy GitHub repository]( https://github.com/18f/open-source-policy), or just [shoot us an email](mailto:18f@gsa.gov).
 
 ## Guidelines
 
 ### Contributor Guidelines for Design
-We have provided some guidelines for folks that would like to submit new components to the Draft Web Design Standards and the lifecycle those new components will go through. For more detail, please visit the [guidelines on our wiki](https://github.com/18F/web-design-standards/wiki/Contribution-Guidelines:-Design).
+We have provided some guidelines for folks that would like to submit new components to the U.S. Web Design Standards and the lifecycle those new components will go through. For more detail, please visit the [guidelines on our wiki](https://github.com/18F/web-design-standards/wiki/Contribution-Guidelines:-Design).
 
 ### Submitting an issue
 
@@ -34,7 +34,7 @@ Have questions or need help with setup? Open an issue here [https://github.com/1
 
 ### Running locally
 
-The Draft U.S. Web Design Standards `uswds` package (the ZIP download and the files needed to use the Standards on your project) is built using gulp automation. To use gulp, first make sure you've installed it on your machine globally.
+The U.S. Web Design Standards `uswds` package (the ZIP download and the files needed to use the Standards on your project) is built using gulp automation. To use gulp, first make sure you've installed it on your machine globally.
 
 ```sh
 npm install --global gulp-cli
@@ -81,21 +81,17 @@ This project follows the 18F Front End Guide [CSS](https://pages.18f.gov/fronten
 
 ## Our use of branches
 
-The `staging` branch is the bleeding edge of development. When cutting a new [release](https://github.com/18F/web-design-standards/releases), we update the versioning on our files by branching off of the `staging` branch and submitting a pull request into our `release` branch. This helps to make `staging` a place that can always receive contributions, no matter where we are in the release process. New commits to `staging` are automatically deployed to [our staging site](https://standards-staging.usa.gov/).
-
-The `master` branch always holds the latest production-ready release. When cutting a [release](https://github.com/18F/web-design-standards/releases), we create a release branch from `staging` named for the new version: for example, `v0.9.x`. Once we’ve completed QA on that branch, we tag the release and merge it into the `master` branch.
-
-The branches `18f-pages` and `18f-pages-staging` _used_ to be the primary release and development branches, back when the site was hosted on `pages.18f.gov`. Those branches still auto deploy to 18F Pages, but will now only contain minimal redirects to the new site.
+See the [release documentation](RELEASE.md#release-process) for more information on our git/GitHub release workflow.
 
 ## Licenses and attribution
 
 ### A few parts of this project are not in the public domain
 
-For complete attribution and licensing information for parts of the project that are not in the public domain, see [LICENSE.md](LICENSE.md).
+For complete attribution and licensing information for parts of the project that are not in the public domain, see [LICENSE.md](https://github.com/18F/web-design-standards/blob/staging/LICENSE.md).
 
 ### The rest of this project is in the public domain
 
-The rest of this project is in the worldwide [public domain](LICENSE.md).
+The rest of this project is in the worldwide [public domain](https://github.com/18F/web-design-standards/blob/staging/LICENSE.md).
 
 This project is in the public domain within the United States, and
 copyright and related rights in the work worldwide are waived through
